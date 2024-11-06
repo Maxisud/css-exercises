@@ -11,7 +11,22 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   padding: 8px;
+=======
+}
+
+
+.rightbar,
+.leftbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header {
+  display: flex;
+>>>>>>> 9d67b2399f9f506292eea482000c5f870a36ce29
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -51,7 +66,11 @@ button {
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
+<<<<<<< HEAD
   padding: 4px 24px;
+=======
+  padding: 12px 12px;
+>>>>>>> 9d67b2399f9f506292eea482000c5f870a36ce29
 }
 
 a {
@@ -61,5 +80,8 @@ a {
 }
 
 ul {
+  display: flex;
   list-style-type: none;
+  gap: 8px;
+  padding: 0;
 }

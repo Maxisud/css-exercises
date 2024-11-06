@@ -1,10 +1,18 @@
 .header  {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-family: monospace;
   background: papayawhip;
+<<<<<<< HEAD
   display: flex;
   min-width: 100%;
   justify-content: space-between;
+=======
+  padding: 8px;
+>>>>>>> 9d67b2399f9f506292eea482000c5f870a36ce29
 }
+
 
 .logo {
   font-size: 48px;
@@ -21,6 +29,10 @@ ul {
   gap: 1em;
   justify-content: space-between;
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
 }
 
 a {
